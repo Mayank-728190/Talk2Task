@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     FRONTEND_URL: str = "http://localhost:3000"
 
     DEEPGRAM_API_KEY: str | None = None
+    OPENAI_API_KEY: str
+    GEMINI_API_KEY: str
 
     model_config = SettingsConfigDict(
         env_file=".env",
