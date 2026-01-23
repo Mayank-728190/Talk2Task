@@ -1,6 +1,11 @@
-venv/
-backend/venv/
+# Environment variables
+.env
+backend/.env
+
+# Python
 __pycache__/
 *.pyc
-.env
-node_modules/
+
+# Virtual environments
+venv/
+backend/venv/

@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str
     GEMINI_API_KEY: str
 
+    PPTGEN_API_KEY: str | None = None
+
     model_config = SettingsConfigDict(
         env_file=".env",
         extra="allow",

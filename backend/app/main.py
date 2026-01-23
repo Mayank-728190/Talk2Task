@@ -1,10 +1,13 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.router import api_router
 from app.core.config import settings
 
-app = FastAPI(title="AI Meeting Intelligence Backend - Step 2")
+app = FastAPI(title="AI Meeting Intelligence Backend")
 
 app.add_middleware(
     CORSMiddleware,
