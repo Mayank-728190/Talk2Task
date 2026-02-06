@@ -22,6 +22,9 @@
 **Talk2Task** is an AI-powered, voice-first meeting and idea intelligence platform that converts live conversations into structured, professional, and execution-ready outputs like **PPTs, Minutes of Meeting (MoM), reports, and visual diagrams**.
 It is built for **students, startups, companies, hackathon teams, and innovators** who want productive meetings without manual effort.
 
+## 🧠 Talk2Task Idea Overview: 
+![Overview](./public/Talk2Task_Overview.png)
+
 ## 💡 Core Idea (Simple & Clear)
 
 People speak naturally during discussions.  
@@ -169,4 +172,5 @@ If you’d like to improve Talk2Task or collaborate, feel free to open an issue 
 
 <p align="center">
   © 2026 MAKSQUARE · Talk2Task
+
 </p>
